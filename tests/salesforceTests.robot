@@ -15,6 +15,6 @@ Create Opportunity
     TypeText      Amount               30000
     TypeText      *Close Date          3/31/2023
     PickList      *Stage               Proposal
-    ClickText     Save                 anchor= 2
+    ClickText     Save                 partial_match=False
     UseModal      off
     
